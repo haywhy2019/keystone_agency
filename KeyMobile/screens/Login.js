@@ -389,7 +389,7 @@ export default function SignUp({ navigation }) {
           <Text style={styles.buttonInfo}>New Keymobile User? </Text>
           <CustomButton
             buttonContainerStyle={styles.buttonOutline}
-            buttonText="Enroll"
+            buttonText="POS DEMO"
             buttonTextStyle={styles.buttonText}
             // onPress={() =>   navigation.navigate("EnrolStep1")
             onPress={() =>   navigation.navigate("Pos")

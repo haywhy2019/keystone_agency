@@ -26,10 +26,10 @@ const Pos = () => {
 
   return (
     <View>
-      <Button title="lunach activity" onPress={() => openFunc()} />
-      <Button color="#841584" onPress={onPress} title="transaction history" />
-      <Button color="black" onPress={onPress1} title="lunch transaction" />
-      <Button color="black" onPress={onPress2} title="Doooo transaction" />
+      {/* <Button title="lunach activity" onPress={() => openFunc()} /> */}
+      <Button color="#841584" onPress={onPress} title="Key exchange" />
+      <Button color="black" onPress={onPress1} title="Get parameter" />
+      <Button color="black" onPress={onPress2} title="Transaction Purchase" />
 
     </View>
   );
